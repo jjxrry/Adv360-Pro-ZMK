@@ -2,7 +2,7 @@ macro_move_screen_r: macro_move_screen_r{
 compatible = "zmk,behavior-macro";
 label = "macro_move_screen_r";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp RIGHT>;
+bindings = <&kp LEFT_CONTROL>, <&kp RIGHT_ARROW>;
 };
 macro_move_screen_l: macro_move_screen_l{
 compatible = "zmk,behavior-macro";
